@@ -6,8 +6,8 @@
   var planet = planetaryjs.planet();
   // planet.loadPlugin(autocenter({extraHeight: -120}));
   // planet.loadPlugin(autoscale({extraHeight: -120}));
-  planet.loadPlugin(autocenter({extraHeight: -300}));
-  planet.loadPlugin(autoscale({extraHeight: -300}));
+  planet.loadPlugin(autocenter({extraHeight: -200}));
+  planet.loadPlugin(autoscale({extraHeight: -200}));
   planet.loadPlugin(planetaryjs.plugins.earth({
     topojson: { file:   'data/world-110m.json' },
     oceans:   { fill:   '#dbf0ec' },
