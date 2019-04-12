@@ -10,9 +10,9 @@
   planet.loadPlugin(autoscale({extraHeight: -200}));
   planet.loadPlugin(planetaryjs.plugins.earth({
     topojson: { file:   'data/world-110m.json' },
-    oceans:   { fill:   '#dbf0ec' },
-    land:     { fill:   '#90d5be' },
-    borders:  { stroke: '#dbf0ec' }
+    oceans:   { fill:   '#c9e8e3' },
+    land:     { fill:   '#65c7b8' },
+    borders:  { stroke: '#65c7b8' }
   }));
   //planet.loadPlugin(planetaryjs.plugins.pings());
   planet.loadPlugin(planetaryjs.plugins.outlines());
